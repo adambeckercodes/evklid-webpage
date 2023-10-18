@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 1200px;
+  font-family: "font", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* GLOBAL */
+.list-reset {
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 19px 38px;
+  background-color: transparent;
+  border: none;
+  border-radius: 16px;
+}
+
+.btn-contrast {
+  color: white;
+  background-color: #FF9900;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 1770px;
+  padding: 0 75px;
+  margin: 0 auto;
+}
+
+.section-offset {
+  margin-bottom: 100px;
+}
+
+/* HEADER */
+.header {
+  margin-bottom: 50px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 0px 0px 32px 32px;
+  box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-menu {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list {
+  align-items: center;
+  margin-right: 260px;
+}
+
+.header-list-item:not(:last-child) {
+  margin-right: 85px;
+}
+
+/* HERO */
+.hero {
+  margin-bottom: 50px;
+}
+
+.hero-content {
+  padding: 100px 80px;
+  max-width: 837px;
+}
+
+.hero-title {
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.hero-descr {
+  margin: 0;
+  margin-bottom: 90px;
+}
+
+.hero-btn {
+  padding: 25px 39px;
+}
