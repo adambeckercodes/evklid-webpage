@@ -106,3 +106,100 @@ img {
 .hero-btn {
   padding: 25px 39px;
 }
+
+/* ABOUT */
+.about-title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.about-descr {
+  margin: 0;
+  margin-bottom: 50px;
+  max-width: 1235px;
+}
+
+.about-wrapper {
+  width: 100%;
+}
+
+.about-left {
+  margin-right: 32px;
+}
+
+.about-left-content {
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.50);
+  border-radius: 32px;
+}
+
+.about-article {
+  padding: 65px 118px;
+  border: 1px solid black;
+  border-radius: 32px;
+}
+
+.about-article:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+/* OUR WORK */
+.our-work-title {
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.our-work-list {
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.our-work-item:not(:last-child) {
+  margin-right: 85px;
+}
+
+.our-work-wrapper {
+  align-items: center;
+}
+
+.our-work-left,
+.our-work-slide {
+  width: 50%;
+}
+
+.our-work-card-title {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.our-work-descr {
+  margin: 0;
+  margin-bottom: 18px;
+  max-width: 758px;
+}
+
+.our-work-btn-main {
+  margin-right: 32px;
+}
+
+.our-work-btn-secondary {
+  border: 1px solid black;
+}
+
+/* FAQ */
+.faq-title {
+  margin-bottom: 32px;
+}
+
+.faq-btn {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #CACACA;
+  border-bottom: 1px solid #CACACA;
+  border-radius: 0;
+}
+
+.faq-btn:not(:last-child) {
+  margin-bottom: -1px;
+}
