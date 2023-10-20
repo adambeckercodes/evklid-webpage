@@ -10,9 +10,79 @@ html {
   padding: 0;
 }
 
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat-Regular"),
+    url("../font/Montserrat-Regular.woff2") format("woff2"),
+    url("../font/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat-Medium"),
+    url("../font/Montserrat-Medium.woff2") format("woff2"),
+    url("../font/Montserrat-Medium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat-SemiBold"),
+    url("../font/Montserrat-SemiBold.woff2") format("woff2"),
+    url("../font/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat-Bold"),
+    url("../font/Montserrat-Bold.woff2") format("woff2"),
+    url("../font/Montserrat-Bold.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat-ExtraBold"),
+    url("../font/Montserrat-ExtraBold.woff2") format("woff2"),
+    url("../font/Montserrat-ExtraBold.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter-Regular"),
+    url("../font/Inter-Regular.woff2") format("woff2"),
+    url("../font/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Regular"),
+    url("../font/Muller-Regular.woff2") format("woff2"),
+    url("../font/Muller-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   min-width: 1200px;
-  font-family: "font", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
