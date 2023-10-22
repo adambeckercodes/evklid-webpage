@@ -83,6 +83,7 @@ html {
 body {
   min-width: 1200px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 a {
@@ -108,7 +109,7 @@ img {
 
 .btn-contrast {
   color: white;
-  background-color: #FF9900;
+  background-color: #ff9900;
 }
 
 .flex {
@@ -153,19 +154,36 @@ img {
   margin-right: 85px;
 }
 
+.header-list-link {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 /* HERO */
 .hero {
   margin-bottom: 50px;
 }
 
+.hero-wrapper {
+  background-image: url("../img/hero/hero-bg-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 32px;
+}
+
 .hero-content {
   padding: 100px 80px;
   max-width: 837px;
+  color: white;
 }
 
 .hero-title {
   margin: 0;
   margin-bottom: 24px;
+  font-size: 70px;
+  font-weight: 800;
 }
 
 .hero-descr {
@@ -199,7 +217,7 @@ img {
 
 .about-left-content {
   padding: 50px;
-  background-color: rgba(0, 0, 0, 0.50);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 32px;
 }
 
@@ -265,8 +283,8 @@ img {
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #CACACA;
-  border-bottom: 1px solid #CACACA;
+  border-top: 1px solid #cacaca;
+  border-bottom: 1px solid #cacaca;
   border-radius: 0;
 }
 
