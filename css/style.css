@@ -25,7 +25,7 @@ html {
   src: local("Montserrat-Medium"),
     url("../font/Montserrat-Medium.woff2") format("woff2"),
     url("../font/Montserrat-Medium.woff") format("woff");
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
@@ -35,7 +35,7 @@ html {
   src: local("Montserrat-SemiBold"),
     url("../font/Montserrat-SemiBold.woff2") format("woff2"),
     url("../font/Montserrat-SemiBold.woff") format("woff");
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
@@ -45,7 +45,7 @@ html {
   src: local("Montserrat-Bold"),
     url("../font/Montserrat-Bold.woff2") format("woff2"),
     url("../font/Montserrat-Bold.woff") format("woff");
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -55,7 +55,7 @@ html {
   src: local("Montserrat-ExtraBold"),
     url("../font/Montserrat-ExtraBold.woff2") format("woff2"),
     url("../font/Montserrat-ExtraBold.woff") format("woff");
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
@@ -110,6 +110,7 @@ img {
 .btn-contrast {
   color: white;
   background-color: #ff9900;
+  font-weight: 600;
 }
 
 .flex {
@@ -120,6 +121,12 @@ img {
   width: 1770px;
   padding: 0 75px;
   margin: 0 auto;
+}
+
+.section-title {
+  color: #000;
+  font-size: 48px;
+  font-weight: 400;
 }
 
 .section-offset {
@@ -189,10 +196,12 @@ img {
 .hero-descr {
   margin: 0;
   margin-bottom: 90px;
+  font-size: 24px;
 }
 
 .hero-btn {
   padding: 25px 39px;
+  font-size: 23px;
 }
 
 /* ABOUT */
@@ -205,30 +214,85 @@ img {
   margin: 0;
   margin-bottom: 50px;
   max-width: 1235px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 .about-wrapper {
   width: 100%;
 }
 
-.about-left {
-  margin-right: 32px;
+.about-left,
+.about-right {
+  width: 870px;
 }
 
-.about-left-content {
-  padding: 50px;
-  background-color: rgba(0, 0, 0, 0.5);
+.about-left {
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 32px;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/about/about-bg.jpg");
   border-radius: 32px;
 }
 
+.about-left-content {
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 32px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.about-btn {
+  padding: 19px 38px;
+  background: transparent;
+  color: white;
+  border: 3px solid #ff9900;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 .about-article {
-  padding: 65px 118px;
+  align-items: center;
+  padding: 65px 120px 65px 60px;
   border: 1px solid black;
   border-radius: 32px;
 }
 
 .about-article:not(:last-child) {
   margin-bottom: 32px;
+}
+
+.about-article svg {
+  margin-right: 50px;
+  min-width: 190px;
+}
+
+.about-card-wrapper {
+  max-width: 452px;
+}
+
+.about-card-title {
+  margin-bottom: 8px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.about-card-text {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 /* OUR WORK */
@@ -244,6 +308,8 @@ img {
 
 .our-work-item:not(:last-child) {
   margin-right: 85px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .our-work-wrapper {
@@ -258,12 +324,16 @@ img {
 .our-work-card-title {
   margin: 0;
   margin-bottom: 8px;
+  font-size: 24px;
+  line-height: 32px; /* 133.333% */
 }
 
 .our-work-descr {
   margin: 0;
   margin-bottom: 18px;
   max-width: 758px;
+  font-size: 16px;
+  line-height: 32px; /* 200% */
 }
 
 .our-work-btn-main {
@@ -281,11 +351,15 @@ img {
 
 .faq-btn {
   width: 100%;
+  padding: 40px 0;
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid #cacaca;
   border-bottom: 1px solid #cacaca;
   border-radius: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
 }
 
 .faq-btn:not(:last-child) {
