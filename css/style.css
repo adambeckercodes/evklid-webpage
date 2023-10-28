@@ -365,3 +365,95 @@ img {
 .faq-btn:not(:last-child) {
   margin-bottom: -1px;
 }
+
+/* FOOTER */
+.footer {
+  color: #cacaca;
+  background-color: black;
+}
+
+.footer-container {
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-left {
+  min-width: 252px;
+  min-height: 494px;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+  /* width: 224px;
+  height: 72px; */
+}
+
+.footer-nav-item {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.footer-nav {
+  margin-bottom: 90px;
+}
+
+.social-link:not(:last-child) {
+  margin-right: 25px;
+}
+
+.footer-center {
+  min-width: 570px;
+}
+
+.footer-title {
+  color: #cacaca;
+  margin-bottom: 25px;
+}
+
+.form {
+  flex-direction: column;
+}
+
+.name-input,
+.mail-input,
+.form textarea {
+  padding: 14px 24px;
+  color: #cacaca;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  background-color: #414141;
+  border: none;
+  border-radius: 16px;
+}
+
+.form input {
+  margin-bottom: 25px;
+}
+
+.form textarea {
+  margin-bottom: 32px;
+  min-height: 150px;
+}
+
+.submit-wrapper {
+  align-items: center;
+}
+
+.form-btn {
+  margin-right: 22px;
+}
+
+.submit-wrapper input {
+  margin: 0;
+  margin-right: 4px;
+}
+
+.footer-right {
+  max-width: 363px;
+  color: #cacaca;
+  line-height: 32px;
+}
