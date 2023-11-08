@@ -1,0 +1,17 @@
+@media (max-width: 1500px) {
+  .header__nav .nav__list {
+    display: none;
+  }
+
+  .burger__btn {
+    display: block;
+  }
+
+  .header__menu {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 1459px) {
+  
+}

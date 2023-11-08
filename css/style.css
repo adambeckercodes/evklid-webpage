@@ -151,7 +151,7 @@ img {
 }
 
 .container {
-  width: 1920px;
+  max-width: 1920px;
   padding: 0 75px;
   margin: 0 auto;
 }
@@ -179,6 +179,42 @@ img {
 .header__container {
   align-items: center;
   justify-content: space-between;
+}
+
+.burger__btn {
+  display: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 30px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.burger__line {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  transform: translateX(-50%);
+}
+
+.burger__line:nth-child(1) {
+  top: 0;
+}
+
+.burger__line:nth-child(3) {
+  bottom: 0;
+}
+
+.burger__line:nth-child(2) {
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.burger__nav {
+  display: none;
 }
 
 .header__logo:focus-visible {
