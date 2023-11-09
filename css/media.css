@@ -370,4 +370,137 @@
     font-weight: 400;
     line-height: 28px;
   }
+
+  .our-work.section-offset {
+    margin-bottom: 60px;
+  }
+
+  .our-work__title {
+    margin-bottom: 21px;
+  }
+
+  .our-work__list {
+    margin-bottom: 15px;
+  }
+
+  .our-work__item {
+    font-size: 14px;
+  }
+
+  .our-work__wrapper {
+    gap: 16px;
+  }
+
+  .our-work__slide {
+    height: 160px;
+  }
+
+  .our-work__card-title {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+  .our-work__descr {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .our-work__btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .our-work__btn-main {
+    margin: 0;
+    font-size: 12px;
+    padding: 12px 44px;
+  }
+
+  .our-work__btn-secondary {
+    padding: 12px 32px;
+    font-size: 12px;
+  }
+
+  .faq.section-offset {
+    margin-bottom: 60px;
+  }
+
+  .faq__title {
+    margin-bottom: 16px;
+    line-height: normal;
+  }
+
+  .faq__btn {
+    justify-content: space-between;
+  }
+
+  .faq__btn-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .faq__btn svg {
+    max-width: 30px;
+    height: 30px;
+  }
+
+  .footer__container {
+    padding-top: 33px;
+    padding-bottom: 33px;
+  }
+
+  .footer__title {
+    margin-bottom: 20px;
+  }
+
+  .footer__center {
+    margin-bottom: 38px;
+    min-width: 100%;
+  }
+
+  .form__input,
+  .form textarea {
+    font-size: 14px;
+    padding: 14px 19px;
+    border-radius: var(--border-radius-main);
+  }
+
+  .form textarea {
+    margin-bottom: 25px;
+  }
+
+  .submit-wrapper {
+    flex-direction: column;
+    height: auto;
+    position: relative;
+  }
+
+  .form__btn {
+    margin: 0;
+    margin-bottom: -6px;
+    padding: 13px 29px;
+    font-size: 12px;
+  }
+
+  .submit-wrapper::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: -22px;
+    left: 0;
+    bottom: -5px;
+    background-color: #414141;
+  }
+
+  .footer__logo {
+    width: 131px;
+  }
 }
